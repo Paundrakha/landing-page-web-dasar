@@ -1,0 +1,125 @@
+/* body */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #B25068;
+}
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: sans-serif;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+#letter-spacing {
+    letter-spacing: 4px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #E7AB79;
+}
+
+
+/* header */
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #4C3A51;
+    background-image: -o-repeating-linear-gradient(#FCF8E8, #411530);
+    text-align: center;
+    color: #FCF8E8;
+}
+
+/* navbar */
+nav {
+    background-color:  #774360;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FCF8E8;
+}
+
+
+nav ul li a:hover {
+    font-weight: bold;
+    color: #E7AB79;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/* pengaturan image*/
+.featured-image {
+    width: 100%;
+    min-height: 450px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform .2s;
+    border-radius: 5px;
+}
+
+.featured-image:hover {
+    transform: scale(1.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* main */
+main {
+    padding: 200px;
+    overflow: auto;
+}
+
+.content {
+    float: Left;
+    width: 70%;
+     
+}
+   
+
+
+/* aside */
+aside {
+    float: right;
+    width: 30%;
+    padding: 10px;
+}
+
+.profile {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    padding: 15px;
+    color: white;
+    background-color: #4C3A51;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+    .content,
+    aside {
+        width: 100%;
+        padding:0;
+    }
+}
